@@ -60,7 +60,7 @@ $(document).ready(function() {
 
 				clearInterval(counter);
 
-				$("#timer").html("<h4>Correct Answers: " + correctAnswers + "<br>" + "Incorrect Answers: " + incorrectAnswers + "<br>" + "Uncompleted: " + uncompletedQuestions + "<br><br> Reload the page to try again!</h4>");
+				$("#timer").html("<h4>Correct Answers: " + correctAnswers + "<br>" + "Incorrect Answers: " + incorrectAnswers + "<br>" + "Uncompleted: " + uncompletedQuestions + "<br><br> Oops You Lost!Refresh the page to start again...</h4>");
 
 				$("#questionsDiv").hide();			
 			}
@@ -69,7 +69,7 @@ $(document).ready(function() {
 
 				clearInterval(counter);
 
-				$("#timer").html("<h4>Correct Answers: " + correctAnswers + "<br>" + "Incorrect Answers: " + incorrectAnswers + "<br>" + "Uncompleted: " + uncompletedQuestions + "<br><br> Reload the page to try again!</h4>");
+				$("#timer").html("<h4>Correct Answers: " + correctAnswers + "<br>" + "Incorrect Answers: " + incorrectAnswers + "<br>" + "Uncompleted: " + uncompletedQuestions + "<br><br> Oops You Lost! Refresh the page to start again...</h4>");
 
 				$("#questionsDiv").hide();
 
